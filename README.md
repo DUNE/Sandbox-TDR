@@ -1,8 +1,19 @@
 # DUNE-TDR
 DUNE Technical Design Report (TDR)
 
-## Guidelines for editing
-Please follow the editing guidelines in [Document Guidance](https://github.com/DUNE/document-guidance).
+## Management
+
+* The management area for development of this volume is at [Physics TDR Volume Development](https://wiki.dunescience.org/wiki/Physics_TDR_Volume_Development).
+* We may also maintain assignments and scheduling info at [TDR Physics Volume under DUNE at Work](https://web.fnal.gov/collaboration/DUNE/SitePages/TDR_Physics_Volume.aspx).
+
+## Guidelines and information
+
+Please follow the editing guidelines in [Document Guidance](https://github.com/DUNE/document-guidance). You will find information on:
+* how to use git
+* how to get the files and build the document
+* DUNE standards for editing (images, tables, labels, citations, numbers/units, upper/lower case, grammar, punctuation, inserting "fixmes", etc.)
+
+For general DUNE information: Go to [DUNE at Work](https://web.fnal.gov/collaboration/DUNE/SitePages/home.aspx)
 
 ## Autobuilt PDFs
 
@@ -22,4 +33,3 @@ To access the CDR content, go to [CDR](https://github.com/DUNE/cdr).
 As of 2 June 2016 this is a clone of the final physics volume from the DUNE CDR document (the LaTeX volumes in GitHub).
 -- Anne Heavey
 
-Oct 25, 2016: Starting a management area at [DUNE TDR Development](https://web.fnal.gov/collaboration/DUNE/DUNE%20TDR%20Development/_layouts/15/start.aspx)
