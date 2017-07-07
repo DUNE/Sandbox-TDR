@@ -15,6 +15,8 @@ Please follow the editing guidelines in [Document Guidance](https://github.com/D
 
 For general DUNE information: Go to [DUNE at Work](https://web.fnal.gov/collaboration/DUNE/SitePages/home.aspx)
 
+To access the CDR content, go to [CDR](https://github.com/DUNE/cdr).
+ 
 ## Autobuilt PDFs
 
 Shortly after successful commits are pushed these links should point to updated files.  
