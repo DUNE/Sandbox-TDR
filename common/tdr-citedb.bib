@@ -1,0 +1,81 @@
+Formatted according to: http://en.wikipedia.org/wiki/Bibtex (BV, AH Aug 2010; updated Jul 2017 AH)
+
+We plan to use the utphys.bst style for compilation. 
+                  
+CONVENTIONS:
+
+5235, Please follow these (Instructions and reference info goes to about line 80 
+in this file; please read through it before adding citations!
+
+ - When adding citations to this file, if possible, copy the BibTeX rendering 
+ of the citation from http://inspirehep.net. 
+
+ - Many citations already exist in the file citedb.bib, also under the "common" 
+ directory. It has entries from the CDR, the protoDUNE-SP TDR and possibly other
+ documents. You can search it to see if the citation you want is there.
+
+ - List DocDB notes like:
+
+@techreport{tdr-vol-1,
+title = "{TDR Volume 1: The LBNF and DUNE Projects}",
+collaboration = {{DUNE}},
+year = {2018},
+note = "\url{http://docs.dunescience.org/cgi-bin/ShowDocument?docid=nnnn}"
+}
+
+To make anything literal, surround it in {}'s.
+
+A note on comments:  
+ - EVERYTHING outside of an "at" block is a comment.
+ - You can comment out an "at" block by deleting the "at" character.
+ - Do not put any type of comments inside an "at" block. They are not allowed.
+
+The order of citations in this file does not matter.                  
+                  
+A note on authors:
+
+ - Spell out the full names and separate them with  the word "and".  If the 
+ author list is too long to write everyone then end it with "and others" -- 
+ NOT "et al".  The style will take care of things like only showing first initial 
+ and changing "and others" to "et al".  
+
+For help with bibtex see:
+
+ - https://en.wikipedia.org/wiki/BibTeX
+ - http://nwalsh.com/tex/texhelp/bibtx-23.html (This is about rendering names)
+
+A few examples follow.
+                  
+@misc{ref:NA61Proposal,
+title="{Study of Hadron Production in Hadron-Nucleus and Nucleus-Nucleus Collisions at the CERN SPS; CERN-SPSC-2006-034}",
+note = "\url{http://cds.cern.ch/record/995681?ln=en}",
+year = {2006},
+}
+
+@article{Ayres:2007tu,
+      author         = "Ayres, D.S. and others",
+      title          = "{The NOvA Technical Design Report}",
+      collaboration  = "NOvA",
+      year           = "2007",
+      reportNumber   = "FERMILAB-DESIGN-2007-01",
+      note = {\url{http://lss.fnal.gov/archive/design/fermilab-design-2007-01.pdf}},
+      SLACcitation   = "%%CITATION = FERMILAB-DESIGN-2007-01 ETC.;%%",
+}
+
+@techreport{tdr-vol-2,
+title = "{TDR Volume 2: The Physics Program for DUNE at LBNF}",
+collaboration = {{DUNE}},
+year = {2018},
+note = "\url{http://docs.dunescience.org/cgi-bin/ShowDocument?docid=}"
+}
+
+@unpublished{pip2-2013,
+author = {Derwent P. and others},
+title =  "{Proton Improvement Plan-II}",
+year = {2013},
+note = "\url{http://projectx-docdb.fnal.gov/cgi-bin/RetrieveFile?=1232&filename=1.2%20MW%20Report_Rev5.pdf&version=3}",
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(Start adding citations here.)
