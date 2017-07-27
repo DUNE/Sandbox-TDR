@@ -163,23 +163,23 @@
 % }
 
 
-\newcommand{\cdrtablabel}{}% stores the label
-\newcommand{\cdrtabcaption}{}% stores the caption
-\newcommand{\cdrtabcaptionshort}{}% stores an optional short caption
-\newenvironment{cdrtable}[4][]
+\newcommand{\dunetabtablabel}{}% stores the label
+\newcommand{\dunetabcaption}{}% stores the caption
+\newcommand{\dunetabcaptionshort}{}% stores an optional short caption
+\newenvironment{dunetable}[4][]
 {
   \if\relax\detokenize{#1}\relax
-  \gdef\cdrtabcaptionshort{\relax}
+  \gdef\dunetabcaptionshort{\relax}
   \else
-  \gdef\cdrtabcaptionshort{#1}
+  \gdef\dunetabcaptionshort{#1}
   \fi
 
-  \gdef\cdrtablabel{#3}
-  \gdef\cdrtabcaption{#4}
+  \gdef\dunetablabel{#3}
+  \gdef\dunetabcaption{#4}
 
   \begin{table}[hbtp]
     \centering
-      \caption[\cdrtabcaptionshort]{\cdrtabcaption}
+      \caption[\dunetabcaptionshort]{\dunetabcaption}
       \begin{tabular}{#2}
         \toprule
         \rowtitlestyle
@@ -187,30 +187,30 @@
 {
         \bottomrule
       \end{tabular}
-      \label{tab:\cdrtablabel}
+      \label{\dunetablabel}
   \end{table}
 }
 
-\newcommand{\cdrfiglabel}{}% stores the label
-\newcommand{\cdrfigcaption}{}% stores the caption
-\newcommand{\cdrfigcaptionshort}{}% stores an optional short caption
-\newenvironment{cdrfigure}[3][]
+\newcommand{\dunefiglabel}{}% stores the label
+\newcommand{\dunefigcaption}{}% stores the caption
+\newcommand{\dunefigcaptionshort}{}% stores an optional short caption
+\newenvironment{dunefigure}[3][]
 {
   \if\relax\detokenize{#1}\relax
-  \gdef\cdrfigcaptionshort{\relax}
+  \gdef\dunefigcaptionshort{\relax}
   \else
-  \gdef\cdrfigcaptionshort{#1}
+  \gdef\dunefigcaptionshort{#1}
   \fi
 
-  \gdef\cdrfiglabel{#2}
-  \gdef\cdrfigcaption{#3}
+  \gdef\dunefiglabel{#2}
+  \gdef\dunefigcaption{#3}
 
   \begin{figure}[hbtp]
     \centering
 }
 {
-      \caption[\cdrfigcaptionshort]{\cdrfigcaption}
-      \label{fig:\cdrfiglabel}
+      \caption[\dunefigcaptionshort]{\dunefigcaption}
+      \label{\dunefiglabel}
   \end{figure}
 }
 
