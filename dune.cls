@@ -9,7 +9,7 @@
 \RequirePackage[letterpaper,margin=2cm]{geometry}
 
 % Required values and their setters
-\newcommand\thedoctitle{DRAFT Conceptual Design Report}
+\newcommand\thedoctitle{DRAFT Technical Design Report}
 \newcommand\thedocsubtitle{Deep Underground Neutrino Experiment (DUNE) and Long-Baseline Neutrino Facility (LBNF)}
 \def\titleextra{ }
 
