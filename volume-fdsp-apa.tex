@@ -1,0 +1,43 @@
+\ifdefined\isfinal\documentclass[final]{dune}\else\documentclass{dune}\fi
+\pdfoutput=1            % must be in first 5 lines so arXiv finds it
+\graphicspath{ {figures/}{volume-fdsp-apa/figures/}{volume-fdsp-apa/generated/} }
+
+\input{common/preamble}
+
+\renewcommand\thedoctitle{\volspfdapa} % defined in common/defs.tex
+%\def\titleextra{\includegraphics[width=0.55\textwidth]{energy_nu_no}} -- change image file
+\begin{document}
+
+\input{common/init}
+
+\input{common/acronyms-shared-vol1-2-4}
+\input{common/acronyms-shared-vol1-2}
+\input{common/acronyms-shared-vol2-4}
+\input{common/acronyms-vol2}
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-overview}
+\cleardoublepage
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-design}
+\cleardoublepage
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-prod-assy}
+\cleardoublepage
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-interfaces}
+\cleardoublepage
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-install-integ-comm}
+\cleardoublepage
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-quality}
+\cleardoublepage
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-safety}
+\cleardoublepage
+
+\input{far-detector-single-phase/volume-fdsp-apa/chapter-apa-organization}
+\cleardoublepage
+
+\input{common/final}
+\end{document}
