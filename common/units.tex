@@ -49,9 +49,14 @@
 \def\msr{\si[inter-unit-product=\ensuremath{{}\cdot{}}]{\meter\steradian}\xspace}
 \def\ktMWyr{\si[inter-unit-product=\ensuremath{{}\cdot{}}]{\kt\MW\year}\xspace}
 
-\newcommand{\SIadj}[2]{\SI[number-unit-product = -]{#1}{#2}}
-% Adjective form of some common units
+% used for hyphen, obsolete now: \newcommand{\SIadj}[2]{\SI[number-unit-product = -]{#1}{#2}}
+% change command definition Nov 2017 in case people copy e.g., \ktadj from CDR text.
+% E.g., \ktadj{10} now renders the same as \SI{10}{\kt}
+\newcommand{\SIadj}[2]{\SI{#1}{#2}}
+
+% Adjective form of some common units (Nov 2107 changed to be same as normal form, no hyphen)
 % "the 10-kt detector"
+
 \newcommand{\ktadj}[1]{\SIadj{#1}{\kt}}
 % "the 1,300-km baseline"
 \newcommand{\kmadj}[1]{\SIadj{#1}{\km}}
